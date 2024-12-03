@@ -1,0 +1,182 @@
+.hero-image {
+  background: no-repeat center/cover url(img/background.jpg);
+  min-height: 67vh;
+  position: relative;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.hero-text h1 {
+  color: #fe53fa;
+  text-shadow: 2px 2px 4px white;
+  text-align: center;
+  margin-top: 3vh;
+  font-size: 70px;
+  letter-spacing: 1px;
+}
+
+.hero-text {
+  text-align: center;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero-text img {
+  margin-top: 4vh;
+  height: 225px;
+  border-radius: 50%;
+  border: 7px solid #fe53fa;
+  height: clamp(150px, 30vw, 300px);
+}
+
+.hero-text p {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 28px;
+  color: #fe53fa;
+}
+
+i {
+  color: #fe53fa;
+}
+
+.navbar-nav li a {
+  color: #fe53fa;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.navbar-nav li a:hover {
+  color: #88bac1;
+}
+
+#footer-section {
+  text-align: center;
+  background-color: #fe53fa;
+  color: white;
+  font-size: 20px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+}
+
+#mission-section img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-fit: center;
+  border-radius: 3px;
+}
+
+#mission-section h1 {
+  text-align: center;
+  color: #88bac1;
+  padding: 20px;
+  font-size: 40px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#mission-section p {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #fe53fa;
+  font-size: 20px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#skills-section,
+#projects-section,
+#ads-section h1 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 40px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#skills-section,
+#ads-section {
+  background-color: #88bac1;
+  margin-top: 4vh;
+  text-align: center;
+}
+#projects-section {
+  background-color: #fe53fa;
+  margin-top: 4vh;
+  text-align: center;
+}
+
+#skills-section p,
+#projects-section p {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: white;
+  font-size: 1rem;
+}
+
+#skills-section h3,
+#ads-section h3 {
+  color: #fe53fa;
+  font-size: 25px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#projects-section h3 {
+  color: #88bac1;
+  font-size: 25px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#skills-section img,
+#projects-section img {
+  height: 150px;
+  object-fit: cover;
+  object-fit: center;
+}
+
+#ads-section img {
+  height: 200px;
+  object-fit: cover;
+  object-fit: center;
+}
+
+#contact-section h1 {
+  text-align: center;
+  color: #88bac1;
+  padding-top: 20px;
+  font-size: 40px;
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#contact-section {
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+i:hover {
+  color: #88bac1;
+}
